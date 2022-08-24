@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db4f3fb7-fa4e-4765-b9ca-2f35bc022d21" name="Default Changelist" comment="" />
+    <list default="true" id="db4f3fb7-fa4e-4765-b9ca-2f35bc022d21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/utils/Panic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/utils/ParseStringRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/utils/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/common/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/changzer/mydb/backend/tm/TransactionManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/tm/TransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/tm/TransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/tm/TransactionManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/tm/TransactionManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/changzer/mydb/backend/tm/TransactionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/changzer/mydb/backend/tm/TransactionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/changzer/mydb/backend/tm/TransactionManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/changzer/mydb/backend/tm/TransactionManagerImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,15 +50,21 @@
     </option>
   </component>
   <component name="ProjectId" id="2DkywLWKMhguLp8WrpYjvxO8GwW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/cn/changzer/mydb/backend/tm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +79,12 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\学习\web后端\myDB\myDB\src\test\java\cn\changzer\mydb\backend\tm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TransactionManagerTest.testMultiThread">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.changzer.NIO.chat.Client" />
       <module name="myDB" />
@@ -98,30 +124,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.changzer.NIO.selector.Server" />
+    <configuration name="TransactionManagerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myDB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.changzer.NIO.selector.*" />
+          <option name="PATTERN" value="cn.changzer.mydb.backend.tm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.changzer.mydb.backend.tm" />
+      <option name="MAIN_CLASS_NAME" value="cn.changzer.mydb.backend.tm.TransactionManagerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChannelTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionManagerTest.testMultiThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myDB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.changzer.NIO.*" />
+          <option name="PATTERN" value="cn.changzer.mydb.backend.tm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.changzer.NIO" />
-      <option name="MAIN_CLASS_NAME" value="cn.changzer.NIO.ChannelTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="cn.changzer.mydb.backend.tm" />
+      <option name="MAIN_CLASS_NAME" value="cn.changzer.mydb.backend.tm.TransactionManagerTest" />
+      <option name="METHOD_NAME" value="testMultiThread" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionManagerTest.testMultiThread" />
+        <item itemvalue="JUnit.TransactionManagerTest.test" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="JUnit.ChannelTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -148,32 +177,73 @@
       <option name="presentableId" value="Default" />
       <updated>1661257614641</updated>
       <workItem from="1661257617455" duration="6617000" />
+      <workItem from="1661310636347" duration="5650000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1661258082609">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1410" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1661313294870">
+      <screen x="-1920" y="0" width="1280" height="693" />
     </state>
+    <state x="-1410" y="113" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661313294870" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1661258082609" />
-    <state width="1237" height="249" key="GridCell.Tab.0.bottom" timestamp="1661310540481">
+    <state x="-1499" y="96" key="FileChooserDialogImpl" timestamp="1661326951336">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state width="1237" height="249" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661310540481" />
-    <state width="1237" height="249" key="GridCell.Tab.0.center" timestamp="1661310540480">
+    <state x="-1499" y="96" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661326951336" />
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1661329549438">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state width="1237" height="249" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661310540480" />
-    <state width="1237" height="249" key="GridCell.Tab.0.left" timestamp="1661310540480">
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329549438" />
+    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1661329549438">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state width="1237" height="249" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661310540480" />
-    <state width="1237" height="249" key="GridCell.Tab.0.right" timestamp="1661310540480">
+    <state width="1237" height="190" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329549438" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1661329549437">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state width="1237" height="249" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661310540480" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329549437" />
+    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1661329549438">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329549438" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1661329374020">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374020" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1661329374019">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374019" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1661329374019">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374019" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1661329374019">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374019" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1661329374020">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374020" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1661329374020">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374020" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1661329374020">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374020" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1661329374020">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661329374020" />
   </component>
 </project>
