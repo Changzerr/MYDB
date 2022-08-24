@@ -1,0 +1,10 @@
+hello,使用Buffer和channel实现写数据到文件中0
+hello,使用Buffer和channel实现写数据到文件中1
+hello,使用Buffer和channel实现写数据到文件中2
+hello,使用Buffer和channel实现写数据到文件中3
+hello,使用Buffer和channel实现写数据到文件中4
+hello,使用Buffer和channel实现写数据到文件中5
+hello,使用Buffer和channel实现写数据到文件中6
+hello,使用Buffer和channel实现写数据到文件中7
+hello,使用Buffer和channel实现写数据到文件中8
+hello,使用Buffer和channel实现写数据到文件中9
