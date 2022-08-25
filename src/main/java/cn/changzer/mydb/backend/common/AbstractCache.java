@@ -82,6 +82,26 @@ public abstract class AbstractCache<T> {
         return obj;
     }
 
+    /**
+     * 强行释放一个缓存
+     */
+    protected void release(long key) {
+        lock.lock();
+        try {
+            int ref = references.get(key)-1;
+            if(ref == 0) {
+                T obj = cache.get(key);
+                releaseForCache(obj);
+                references.remove(key);
+                cache.remove(key);
+                count --;
+            } else {
+                references.put(key, ref);
+            }
+        } finally {
+            lock.unlock();
+        }
+    }
 
     /**
      * 关闭缓存，写回所有资源
