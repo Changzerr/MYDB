@@ -23,11 +23,6 @@ public class TransactionManagerTest {
     private Map<Long, Byte> transMap;
     private CountDownLatch cdl;
 
-    @Test
-    public void test(){
-        File file = new File("E:\\学习\\web后端\\myDB\\myDB\\src\\test\\resources\\tmp\\tranmger_test.xid");
-        System.out.println(file.delete());
-    }
 
     @Test
     public void testMultiThread() {
