@@ -1,8 +1,7 @@
-package cn.changzer.mydb.backend.pageCache;
+package cn.changzer.mydb.backend.dm.pageCache;
 
 import cn.changzer.mydb.backend.dm.page.Page;
-import cn.changzer.mydb.backend.dm.pageCache.PageCache;
-import cn.changzer.mydb.backend.page.MockPage;
+import cn.changzer.mydb.backend.dm.page.MockPage;
 
 import java.util.HashMap;
 import java.util.Map;

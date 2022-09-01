@@ -1,6 +1,4 @@
-package cn.changzer.mydb.backend.page;
-
-import cn.changzer.mydb.backend.dm.page.Page;
+package cn.changzer.mydb.backend.dm.page;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

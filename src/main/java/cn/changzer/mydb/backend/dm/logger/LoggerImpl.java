@@ -58,9 +58,9 @@ public class LoggerImpl implements Logger {
         }catch (IOException e) {
             Panic.panic(e);
         }
-        if(size > 4) {
-            Panic.panic(Error.BadLogFileException);
-        }
+        //if(size > 4) {
+        //    Panic.panic(Error.BadLogFileException);
+        //}
 
         ByteBuffer raw = ByteBuffer.allocate(4);
         try{
@@ -82,7 +82,25 @@ public class LoggerImpl implements Logger {
         int xCheck = 0;
         while(true) {
             byte[] log = internNext();
+            if(log == null) {
+                break;
+            }
+            xCheck = calChecksum(xCheck, log);
         }
+        if(xCheck != xChecksum) {
+            Panic.panic(Error.BadLogFileException);
+        }
+        try {
+            truncate(position);
+        } catch (Exception e) {
+            Panic.panic(e);
+        }
+        try {
+            file.seek(position);
+        } catch (IOException e) {
+            Panic.panic(e);
+        }
+        rewind();
     }
 
     private byte[] internNext() {

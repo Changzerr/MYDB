@@ -1,7 +1,6 @@
-package cn.changzer.mydb.backend.pageCache;
+package cn.changzer.mydb.backend.dm.pageCache;
 
 import cn.changzer.mydb.backend.dm.page.Page;
-import cn.changzer.mydb.backend.dm.pageCache.PageCache;
 import cn.changzer.mydb.backend.utils.Panic;
 import cn.changzer.mydb.backend.utils.RandomUtil;
 import org.junit.Test;
