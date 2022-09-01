@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4f3fb7-fa4e-4765-b9ca-2f35bc022d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/page/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/page/PageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/page/PageOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/page/PageX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/pageCache/PageCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/pageCache/PageCacheImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/changzer/mydb/backend/page/MockPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/changzer/mydb/backend/pageCache/MockPageCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/changzer/mydb/backend/pageCache/PageCacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/Recover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/dm/logger/LoggerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/common/AbstractCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/changzer/mydb/backend/common/AbstractCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +194,7 @@
       <workItem from="1661678173384" duration="7749000" />
       <workItem from="1661737317093" duration="7109000" />
       <workItem from="1661773826088" duration="4118000" />
+      <workItem from="1662036412757" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="TM事务管理器测试">
       <created>1661329752933</created>
@@ -225,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661432657950</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page和PageCache">
+      <created>1662036456755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662036456755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,13 +235,14 @@
     <MESSAGE value="TM事务管理器测试" />
     <MESSAGE value="cache模块" />
     <MESSAGE value="测试cache模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试cache模块" />
+    <MESSAGE value="Page和PageCache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page和PageCache" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1410" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1661681315893">
+    <state x="-1410" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1662038013351">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state x="-1410" y="113" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661681315893" />
+    <state x="-1410" y="113" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1662038013351" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1661679271991" />
     <state x="-1653" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1661688702277">
       <screen x="-1920" y="0" width="1280" height="693" />
@@ -252,10 +252,10 @@
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
     <state x="-1495" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661688704619" />
-    <state x="-1670" y="0" key="CommitChangelistDialog2" timestamp="1661432655982">
+    <state x="-1670" y="0" key="CommitChangelistDialog2" timestamp="1662036454499">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state x="-1670" y="0" key="CommitChangelistDialog2/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661432655982" />
+    <state x="-1670" y="0" key="CommitChangelistDialog2/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1662036454499" />
     <state x="-1499" y="96" key="FileChooserDialogImpl" timestamp="1661326951336">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
@@ -325,10 +325,10 @@
     </state>
     <state x="-1778" y="0" key="SettingsEditor/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661689106013" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1661739948092" />
-    <state x="-1687" y="62" key="Vcs.Push.Dialog.v2" timestamp="1661431405444">
+    <state x="-1687" y="62" key="Vcs.Push.Dialog.v2" timestamp="1662036459394">
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
-    <state x="-1687" y="62" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1661431405444" />
+    <state x="-1687" y="62" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@-1920.0.1280.693" timestamp="1662036459394" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1661773826131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
