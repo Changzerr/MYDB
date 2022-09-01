@@ -22,13 +22,16 @@ public abstract class AbstractCache<T> {
     private Lock lock;
 
     //初始化
-    AbstractCache(int maxResource){
+    public AbstractCache(int maxResource){
         this.maxResource = maxResource;
         cache = new HashMap<>();
         references = new HashMap<>();
         getting = new HashMap<>();
         lock = new ReentrantLock();
     }
+
+
+
 
     protected T get(long key) throws Exception {
         while(true){
