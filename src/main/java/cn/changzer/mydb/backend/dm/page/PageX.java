@@ -27,7 +27,7 @@ public class PageX {
     }
 
     // 获取pg的FSO
-    private static short getFSO(Page pg){
+    public static short getFSO(Page pg){
         return getFSO(pg.getData());
     }
 
